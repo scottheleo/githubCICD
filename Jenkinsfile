@@ -13,7 +13,7 @@ pipeline {
    stages {
       stage('preparation') {
           steps {
-              snApplyChanges url: "https://dev117906.service-now.com/", credentialsId: "2934736d-facb-4169-a459-01f7119eddee", appScope: "x_666176_github_ci", branchName: "${BRANCH}"
+              snApplyChanges url: "https://dev117906.service-now.com/", credentialsId: "2934736d-facb-4169-a459-01f7119eddee", appScope: "x_445116_github_ci", branchName: "${BRANCH}"
           }
       }
   }
